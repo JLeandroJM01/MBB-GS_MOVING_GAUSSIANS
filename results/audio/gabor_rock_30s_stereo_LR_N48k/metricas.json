@@ -1,0 +1,60 @@
+{
+  "dominio": "LR",
+  "snr_left_db": 11.667781829833984,
+  "snr_right_db": -5.8240509033203125,
+  "snr_promedio_lr_db": 2.921865463256836,
+  "snr_stereo_db": -2.890852928161621,
+  "psnr_stereo_db": 14.004796981811523,
+  "mse_wave_stereo": 0.1590670794248581,
+  "si_sdr_left_db": 11.432360649108887,
+  "si_sdr_right_db": 11.469756126403809,
+  "si_sdr_stereo_db": -38.06550598144531,
+  "lsd_left_db": 8.162099838256836,
+  "lsd_right_db": 8.058552742004395,
+  "lsd_promedio_db": 8.110326290130615,
+  "snr_mid_db": -0.10564102232456207,
+  "snr_side_db": -13.579052925109863,
+  "si_sdr_mid_db": -24.696002960205078,
+  "si_sdr_side_db": -58.0414924621582,
+  "mel_l1_promedio": 0.6601300239562988,
+  "mr_stft_promedio": 2.920727252960205,
+  "n_atomos_canal1": 48000,
+  "n_atomos_canal2": 48000,
+  "n_atomos_total": 96000,
+  "samples_por_canal": 1323000,
+  "sr": 44100,
+  "duracion_s": 30.0,
+  "bytes_modelo": 1920008,
+  "bytes_wav_int16_stereo": 5292000,
+  "ratio_compresion_vs_wav": 2.7562385156728513,
+  "bitrate_kbps": 512.0021333333334,
+  "cuantizacion": {
+    "fp32": {
+      "bytes_por_atomo": 20,
+      "bytes_modelo": 1920008,
+      "ratio_compresion_vs_wav": 2.7562385156728513,
+      "snr_stereo_db": -2.890852928161621,
+      "si_sdr_stereo_db": -38.06550216674805,
+      "mse_wave_stereo": 0.1590670794248581
+    },
+    "fp16mix": {
+      "bytes_por_atomo": 12,
+      "bytes_modelo": 1152008,
+      "ratio_compresion_vs_wav": 4.593718099179867,
+      "snr_stereo_db": -2.8921546936035156,
+      "si_sdr_stereo_db": -38.072914123535156,
+      "mse_wave_stereo": 0.1591147482395172
+    },
+    "fp16full": {
+      "bytes_por_atomo": 10,
+      "bytes_modelo": 960008,
+      "ratio_compresion_vs_wav": 5.512454062882809,
+      "snr_stereo_db": -1.6378436088562012,
+      "si_sdr_stereo_db": -46.37823486328125,
+      "mse_wave_stereo": 0.11920084804296494
+    }
+  },
+  "loss_final_c1": -0.21099108457565308,
+  "loss_final_c2": 0.14498209953308105,
+  "tiempo_total_s": 804.831729888916
+}

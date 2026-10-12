@@ -1,0 +1,93 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Entornos virtuales
+# =========================
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# =========================
+# Builds / paquetes
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Compilados C++ / CUDA / PyTorch extension
+# =========================
+*.pyd
+*.so
+*.dll
+*.exp
+*.lib
+*.obj
+*.o
+*.a
+*.ilk
+*.pdb
+*.ptx
+*.cubin
+*.fatbin
+
+cuda/**/build/
+
+# =========================
+# Resultados pesados
+# =========================
+/outputs/
+/resultados/
+/salidas/
+
+# =========================
+# Datasets / videos / clips
+# =========================
+/data/videos/
+/data/clips/
+/data/raw/
+/data/tmp/
+
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# =========================
+# Checkpoints / modelos
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# =========================
+# Arrays pesados
+# =========================
+*.npy
+*.npz
+
+# =========================
+# Sistema / editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+/outputs_khipu/
+/data/
+/resultados_mauro/

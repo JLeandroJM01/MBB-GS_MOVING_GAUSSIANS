@@ -1,0 +1,49 @@
+{
+  "_comentario": "RockThatBody 31s-40s stereo. Gabor MS calidad alta: 96k Mid + 64k Side, init energia, MR-STFT/SI-SDR.",
+  "nombre_experimento": "gabor_rock_31_40_stereo_MS_160k_6000ep",
+  "audio": "data/audio/RockThatBody_31s_40s_stereo_44k.wav",
+  "max_segundos": 9.0,
+  "sr": 44100,
+  "device": "cuda",
+  "seed": 42,
+
+  "n_atomos": 160000,
+  "k_sigma": 4.0,
+  "f_min_hz": 40.0,
+  "f_max_hz": null,
+  "sigma_inicial_samples": null,
+
+  "epochs": 6000,
+  "log_cada": 50,
+
+  "lambda_wave": 1.0,
+  "lambda_mrstft": 0.6,
+  "lambda_sisdr": 0.2,
+  "mrstft_ffts": [512, 1024, 2048, 4096],
+
+  "lrs": {
+    "mu_t": 0.3,
+    "log_sigma": 0.005,
+    "amp": 0.01,
+    "freq_raw": 0.01,
+    "phi": 0.1,
+    "gain": 0.01
+  },
+
+  "usar_scheduler": true,
+  "scheduler_factor": 0.5,
+  "scheduler_paciencia": 400,
+  "scheduler_min_lr": 1e-05,
+
+  "sobreescribir_salida": true,
+  "forzar_pytorch": false,
+
+  "dominio": "MS",
+  "n_atomos_mid": 96000,
+  "n_atomos_side": 64000,
+
+  "init_modo": "energia",
+  "init_alpha": 0.7,
+  "init_n_fft": 2048,
+  "init_hop": 512
+}

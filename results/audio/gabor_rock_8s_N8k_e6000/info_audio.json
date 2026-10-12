@@ -1,0 +1,8 @@
+{
+  "audio": "/home/jose.machaca/MBB-GS/data/audio/RockThatBody_61s_8s_mono_44k.wav",
+  "sr": 44100,
+  "samples": 352800,
+  "duracion_s": 8.0,
+  "canal": "mono",
+  "seed": 42
+}

@@ -1,0 +1,49 @@
+{
+  "_comentario": "RockThatBody 31s-40s stereo. Config reducida para mostrar caso de menor calidad: pocos atomos, menos epochs y sin SI-SDR.",
+  "nombre_experimento": "gabor_rock_31_40_stereo_MS_24k_800ep_malo",
+  "audio": "data/audio/RockThatBody_31s_40s_stereo_44k.wav",
+  "max_segundos": 9.0,
+  "sr": 44100,
+  "device": "cuda",
+  "seed": 42,
+
+  "n_atomos": 24000,
+  "k_sigma": 4.0,
+  "f_min_hz": 40.0,
+  "f_max_hz": null,
+  "sigma_inicial_samples": null,
+
+  "epochs": 800,
+  "log_cada": 50,
+
+  "lambda_wave": 1.0,
+  "lambda_mrstft": 0.2,
+  "lambda_sisdr": 0.0,
+  "mrstft_ffts": [512, 1024],
+
+  "lrs": {
+    "mu_t": 0.3,
+    "log_sigma": 0.005,
+    "amp": 0.01,
+    "freq_raw": 0.01,
+    "phi": 0.1,
+    "gain": 0.01
+  },
+
+  "usar_scheduler": true,
+  "scheduler_factor": 0.5,
+  "scheduler_paciencia": 200,
+  "scheduler_min_lr": 1e-05,
+
+  "sobreescribir_salida": true,
+  "forzar_pytorch": false,
+
+  "dominio": "MS",
+  "n_atomos_mid": 16000,
+  "n_atomos_side": 8000,
+
+  "init_modo": "energia",
+  "init_alpha": 0.7,
+  "init_n_fft": 2048,
+  "init_hop": 512
+}

@@ -1,0 +1,45 @@
+{
+  "snr_db": 0.3061659038066864,
+  "psnr_db": 17.38953971862793,
+  "mse_wave": 0.07296356558799744,
+  "si_sdr_db": -4.273044586181641,
+  "lsd_db": 11.454341888427734,
+  "mel_l1": 0.9418603181838989,
+  "mr_stft": 4.048555374145508,
+  "cuantizacion": {
+    "fp32": {
+      "bytes_por_atomo": 20,
+      "bytes_modelo": 480000,
+      "ratio_compresion_vs_wav": 5.5125,
+      "snr_db": 0.3061659038066864,
+      "si_sdr_db": -4.273045063018799,
+      "mse_wave": 0.07296356558799744
+    },
+    "fp16mix": {
+      "bytes_por_atomo": 12,
+      "bytes_modelo": 288000,
+      "ratio_compresion_vs_wav": 9.1875,
+      "snr_db": 0.3013649880886078,
+      "si_sdr_db": -4.28538703918457,
+      "mse_wave": 0.07304426282644272
+    },
+    "fp16full": {
+      "bytes_por_atomo": 10,
+      "bytes_modelo": 240000,
+      "ratio_compresion_vs_wav": 11.025,
+      "snr_db": -5.07159948348999,
+      "si_sdr_db": -34.66645050048828,
+      "mse_wave": 0.25169962644577026
+    }
+  },
+  "n_atomos": 24000,
+  "samples": 1323000,
+  "sr": 44100,
+  "duracion_s": 30.0,
+  "bytes_modelo": 480000,
+  "bytes_wav_int16": 2646000,
+  "ratio_compresion_vs_wav": 5.5125,
+  "bitrate_kbps": 128.0,
+  "loss_final": 4.085179805755615,
+  "tiempo_total_s": 133.80856847763062
+}

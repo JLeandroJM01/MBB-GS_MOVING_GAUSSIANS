@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+title: "MBB-GS: Moving Gaussians"
+message: "If you use this software, please cite the thesis below."
+type: software
+authors:
+  - family-names: "Machaca Soloaga"
+    given-names: "Jose Leandro"
+    affiliation: "Universidad de Ingenieria y Tecnologia (UTEC)"
+  - family-names: "Bobadilla Castillo"
+    given-names: "Mauro Ianfranco"
+    affiliation: "Universidad de Ingenieria y Tecnologia (UTEC)"
+  - family-names: "Biagioli"
+    given-names: "Eric"
+    affiliation: "Universidad de Ingenieria y Tecnologia (UTEC)"
+license: MIT
+repository-code: "https://github.com/JLeandroJM01/MBB-GS_MOVING_GAUSSIANS"
+url: "https://github.com/JLeandroJM01/MBB-GS_MOVING_GAUSSIANS"
+version: "0.1.0"
+date-released: "2026-09-03"
+abstract: >-
+  Multimedia representation with 2D Gaussian Splatting. Video is represented as
+  a fixed population of 2D Gaussians whose attributes vary over time through
+  Chebyshev polynomials, rendered with a differentiable CUDA rasterizer. Audio
+  is represented as a sum of Gabor atoms.
+keywords:
+  - Gaussian Splatting
+  - video representation
+  - temporal representation
+  - temporal interpolation
+  - Chebyshev polynomials
+  - Gabor atoms
+  - multimedia signals
+preferred-citation:
+  type: thesis
+  title: >-
+    MBB-GS Moving Gaussians: Representacion multimedia mediante Gaussian
+    Splatting
+  authors:
+    - family-names: "Machaca Soloaga"
+      given-names: "Jose Leandro"
+    - family-names: "Bobadilla Castillo"
+      given-names: "Mauro Ianfranco"
+    - family-names: "Biagioli"
+      given-names: "Eric"
+  year: 2026
+  institution:
+    name: "Universidad de Ingenieria y Tecnologia (UTEC)"
+  thesis-type: "Trabajo de investigacion"
+  url: "TODO_THESIS_URL"

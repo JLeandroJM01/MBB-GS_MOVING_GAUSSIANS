@@ -1,0 +1,42 @@
+{
+    "_comentario":  "Plantilla base de audio Gabor estereo MS. Usa pocos atomos y 1 epoch para facilitar pruebas iniciales.",
+    "nombre_experimento":  "mi_experimento_audio",
+    "audio":  "data/audio_pipeline/mi_experimento.wav",
+    "max_segundos":  2,
+    "sr":  16000,
+    "device":  "cuda",
+    "seed":  42,
+    "n_atomos":  768,
+    "n_atomos_mid":  512,
+    "n_atomos_side":  256,
+    "dominio":  "MS",
+    "k_sigma":  4.0,
+    "f_min_hz":  40.0,
+    "f_max_hz":  null,
+    "sigma_inicial_samples":  null,
+    "epochs":  1,
+    "log_cada":  1,
+    "lambda_wave":  1.0,
+    "lambda_mrstft":  0.1,
+    "lambda_sisdr":  0.0,
+    "mrstft_ffts":  [
+                        256,
+                        512
+                    ],
+    "lrs":  {
+                "mu_t":  0.3,
+                "log_sigma":  0.005,
+                "amp":  0.01,
+                "freq_raw":  0.01,
+                "phi":  0.1,
+                "gain":  0.01
+            },
+    "usar_scheduler":  false,
+    "sobreescribir_salida":  true,
+    "forzar_pytorch":  false,
+    "init_modo":  "energia",
+    "init_alpha":  0.7,
+    "init_n_fft":  512,
+    "init_hop":  128,
+    "limpiar_salida":  true
+}

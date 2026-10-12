@@ -1,0 +1,42 @@
+{
+  "_comentario": "8s con la receta ganadora y MISMA densidad que 30s (N=12800=48000*8/30). Mismo ratio de compresion. Responde: el metodo escala con la duracion?",
+  "nombre_experimento": "gabor_rock_8s_mono_ganador_densidad_N12k8",
+  "audio": "data/audio/RockThatBody_61s_8s_mono_44k.wav",
+  "canal": "mono",
+  "max_segundos": 8.0,
+  "sr": 44100,
+  "device": "cuda",
+  "seed": 42,
+  "n_atomos": 12800,
+  "k_sigma": 4.0,
+  "f_min_hz": 40.0,
+  "f_max_hz": null,
+  "sigma_inicial_samples": null,
+  "epochs": 6000,
+  "log_cada": 300,
+  "lambda_wave": 1.0,
+  "lambda_mrstft": 0.3,
+  "lambda_sisdr": 0.1,
+  "mrstft_ffts": [
+    512,
+    1024,
+    2048
+  ],
+  "lrs": {
+    "mu_t": 0.3,
+    "log_sigma": 0.005,
+    "amp": 0.01,
+    "freq_raw": 0.01,
+    "phi": 0.1
+  },
+  "usar_scheduler": true,
+  "scheduler_factor": 0.5,
+  "scheduler_paciencia": 200,
+  "scheduler_min_lr": 1e-05,
+  "sobreescribir_salida": true,
+  "forzar_pytorch": false,
+  "init_modo": "energia",
+  "init_alpha": 0.7,
+  "init_n_fft": 2048,
+  "init_hop": 512
+}

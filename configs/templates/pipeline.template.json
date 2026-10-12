@@ -1,0 +1,33 @@
+{
+    "_comentario":  "Plantilla base para un experimento audiovisual. Ajustar video, duracion, fps, resolucion, pruning y cuantizacion.",
+    "nombre_pipeline":  "mi_experimento",
+    "mp4_original":  "data/videos/video.mp4",
+    "inicio_segundos":  0,
+    "duracion_segundos":  2,
+    "fps":  10,
+    "resolucion":  [
+                       144,
+                       256
+                   ],
+    "device":  "cuda",
+    "nombre_clip":  "mi_experimento_clip",
+    "config_video":  "video.json",
+    "config_audio":  "audio.json",
+    "forzar_extraccion":  true,
+    "pruning":  {
+                    "inicio_pct":  5,
+                    "paso_pct":  5,
+                    "min_pct":  5,
+                    "max_pct":  5,
+                    "psnr_global_min":  0
+                },
+    "video_cuantizacion":  {
+                               "generar_uint16_safe":  true,
+                               "generar_uint16_all":  false,
+                               "usar_para_video_final":  "uint16_safe"
+                           },
+    "video_final":  {
+                        "bitrate_audio_kbps":  96
+                    },
+    "limpiar_salida_pipeline":  true
+}

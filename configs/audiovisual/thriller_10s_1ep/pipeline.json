@@ -1,0 +1,32 @@
+{
+  "_comentario": "Config maestra. El mismo inicio y duración se usan para frames y audio.",
+  "nombre_pipeline": "thriller_10s_1ep",
+  "mp4_original": "data/videos/thriller.mp4",
+  "inicio_segundos": 0.0,
+  "duracion_segundos": 10.0,
+  "fps": 30,
+  "resolucion": [
+    720,
+    1280
+  ],
+  "device": "cuda",
+  "nombre_clip": "thriller_10s_1ep_clip",
+  "config_video": "video.json",
+  "config_audio": "audio.json",
+  "forzar_extraccion": true,
+  "pruning": {
+    "inicio_pct": 10,
+    "paso_pct": 5,
+    "min_pct": 10,
+    "max_pct": 50,
+    "psnr_global_min": 65.0
+  },
+  "video_cuantizacion": {
+    "generar_uint16_safe": true,
+    "generar_uint16_all": true,
+    "usar_para_video_final": "uint16_safe"
+  },
+  "video_final": {
+    "bitrate_audio_kbps": 192
+  }
+}

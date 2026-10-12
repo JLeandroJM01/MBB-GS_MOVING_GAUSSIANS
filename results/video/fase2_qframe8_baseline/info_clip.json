@@ -1,0 +1,16 @@
+{
+  "clip": "video_clips",
+  "n_frames": 600,
+  "H": 720,
+  "W": 1280,
+  "seed": 42,
+  "video_mp4": null,
+  "fps_extraccion": null,
+  "n_frames_extraer": null,
+  "resolucion_extraccion": [
+    720,
+    1280
+  ],
+  "max_frames": 600,
+  "device": "cuda"
+}

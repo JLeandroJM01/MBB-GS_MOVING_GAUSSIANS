@@ -1,0 +1,60 @@
+{
+  "dominio": "MS",
+  "snr_left_db": 7.050370693206787,
+  "snr_right_db": 7.118229389190674,
+  "snr_promedio_lr_db": 7.0843000411987305,
+  "snr_stereo_db": 7.084170341491699,
+  "psnr_stereo_db": 23.979820251464844,
+  "mse_wave_stereo": 0.01599845103919506,
+  "si_sdr_left_db": 6.343104362487793,
+  "si_sdr_right_db": 6.4083709716796875,
+  "si_sdr_stereo_db": 6.375554084777832,
+  "lsd_left_db": 8.93549633026123,
+  "lsd_right_db": 8.91786003112793,
+  "lsd_promedio_db": 8.92667818069458,
+  "snr_mid_db": 12.29122257232666,
+  "snr_side_db": -5.172237396240234,
+  "si_sdr_mid_db": 12.085433959960938,
+  "si_sdr_side_db": 3.6161298751831055,
+  "mel_l1_promedio": 0.8818923234939575,
+  "mr_stft_promedio": 3.3464674949645996,
+  "n_atomos_canal1": 48000,
+  "n_atomos_canal2": 16000,
+  "n_atomos_total": 64000,
+  "samples_por_canal": 1323000,
+  "sr": 44100,
+  "duracion_s": 30.0,
+  "bytes_modelo": 1280008,
+  "bytes_wav_int16_stereo": 5292000,
+  "ratio_compresion_vs_wav": 4.134349160317748,
+  "bitrate_kbps": 341.33546666666666,
+  "cuantizacion": {
+    "fp32": {
+      "bytes_por_atomo": 20,
+      "bytes_modelo": 1280008,
+      "ratio_compresion_vs_wav": 4.134349160317748,
+      "snr_stereo_db": 7.084170341491699,
+      "si_sdr_stereo_db": 6.375554084777832,
+      "mse_wave_stereo": 0.01599845103919506
+    },
+    "fp16mix": {
+      "bytes_por_atomo": 12,
+      "bytes_modelo": 768008,
+      "ratio_compresion_vs_wav": 6.890553223403923,
+      "snr_stereo_db": 7.005902290344238,
+      "si_sdr_stereo_db": 6.28432035446167,
+      "mse_wave_stereo": 0.01628938689827919
+    },
+    "fp16full": {
+      "bytes_por_atomo": 10,
+      "bytes_modelo": 640008,
+      "ratio_compresion_vs_wav": 8.268646641916977,
+      "snr_stereo_db": -1.0543242692947388,
+      "si_sdr_stereo_db": -23.209457397460938,
+      "mse_wave_stereo": 0.10421432554721832
+    }
+  },
+  "loss_final_c1": -0.26909351348876953,
+  "loss_final_c2": 1.5568221807479858,
+  "tiempo_total_s": 901.4190044403076
+}

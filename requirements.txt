@@ -1,0 +1,45 @@
+# Dependencias directas de MBB-GS.
+#
+# Instalacion para revision del codigo y tests (CPU, cualquier plataforma):
+#
+#   pip install -r requirements.txt
+#   pip install -e .
+#   pytest -q
+#
+# Instalacion para entrenamiento en GPU (requiere CUDA 12.6):
+#
+#   pip install torch --index-url https://download.pytorch.org/whl/cu126
+#   pip install -r requirements.txt
+#   pip install -e .
+#
+# y luego compilar las extensiones CUDA (ver README, seccion de compilacion).
+#
+# El entorno exacto usado en el cluster Khipu para los numeros reportados en la
+# tesis esta congelado en requirements-tesis-khipu.txt.
+
+# --- nucleo: modelo, entrenamiento, rasterizador ---------------------------
+torch>=2.5
+numpy>=2.0
+pillow>=10.0
+
+# --- perdidas y metricas de calidad ----------------------------------------
+pytorch-msssim>=1.0        # SSIM/DSSIM; hay implementacion propia como fallback
+lpips>=0.1.4               # metrica perceptual; opcional via "usar_lpips": false
+
+# --- entrada/salida de video ------------------------------------------------
+opencv-python>=4.9         # extraccion de frames desde mp4
+imageio>=2.34              # escritura de mp4 y gif
+imageio-ffmpeg>=0.5        # backend ffmpeg de imageio
+pillow-avif-plugin>=1.4    # metricas de compresion AVIF; opcional
+
+# --- audio (extension Gabor) -------------------------------------------------
+scipy>=1.13                # lectura/escritura de wav y filtros
+
+# --- graficas ----------------------------------------------------------------
+matplotlib>=3.8
+
+# --- compilacion de las extensiones CUDA -------------------------------------
+ninja>=1.11                # backend de build de torch.utils.cpp_extension
+
+# --- tests -------------------------------------------------------------------
+pytest>=8.0

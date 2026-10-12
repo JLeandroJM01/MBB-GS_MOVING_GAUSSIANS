@@ -1,0 +1,33 @@
+{
+    "_comentario":  "Smoke audiovisual reproducible: 20 frames, 1 epoch, pruning unico y UINT16 SAFE.",
+    "nombre_pipeline":  "smoke_20frames",
+    "mp4_original":  "data/videos/smoke_input.mp4",
+    "inicio_segundos":  0.0,
+    "duracion_segundos":  2.0,
+    "fps":  10,
+    "resolucion":  [
+                       144,
+                       256
+                   ],
+    "device":  "cuda",
+    "nombre_clip":  "smoke_20frames_clip",
+    "config_video":  "video.json",
+    "config_audio":  "audio.json",
+    "forzar_extraccion":  true,
+    "pruning":  {
+                    "inicio_pct":  5,
+                    "paso_pct":  5,
+                    "min_pct":  5,
+                    "max_pct":  5,
+                    "psnr_global_min":  0.0
+                },
+    "video_cuantizacion":  {
+                               "generar_uint16_safe":  true,
+                               "generar_uint16_all":  false,
+                               "usar_para_video_final":  "uint16_safe"
+                           },
+    "video_final":  {
+                        "bitrate_audio_kbps":  96
+                    },
+    "limpiar_salida_pipeline":  true
+}

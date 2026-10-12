@@ -1,0 +1,14 @@
+{
+  "snr_db": 8.19802474975586,
+  "psnr_db": 24.78496551513672,
+  "mse_wave": 0.013291174545884132,
+  "n_atomos": 16000,
+  "samples": 352800,
+  "sr": 44100,
+  "duracion_s": 8.0,
+  "bytes_modelo": 320000,
+  "bytes_wav_int16": 705600,
+  "ratio_compresion_vs_wav": 2.205,
+  "loss_final": 0.8877902626991272,
+  "tiempo_total_s": 82.79328346252441
+}

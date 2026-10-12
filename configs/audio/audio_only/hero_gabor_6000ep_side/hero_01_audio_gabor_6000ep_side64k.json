@@ -1,0 +1,49 @@
+{
+  "_comentario": "Audio only Gabor MS para HERO clip 1. Prueba enfocada en mejorar Side: mas atomos side, 6000 epochs, MR-STFT/SI-SDR mayor.",
+  "nombre_experimento": "hero_01_0124_0140_audio_gabor_6000ep_side64k",
+  "audio": "data/audio_pipeline/hero_01_0124_0140_audio_original.wav",
+  "max_segundos": 16.0,
+  "sr": 44100,
+  "device": "cuda",
+  "seed": 42,
+
+  "n_atomos": 160000,
+  "k_sigma": 4.0,
+  "f_min_hz": 40.0,
+  "f_max_hz": null,
+  "sigma_inicial_samples": null,
+
+  "epochs": 6000,
+  "log_cada": 50,
+
+  "lambda_wave": 1.0,
+  "lambda_mrstft": 0.6,
+  "lambda_sisdr": 0.2,
+
+  "mrstft_ffts": [512, 1024, 2048, 4096],
+
+  "lrs": {
+    "mu_t": 0.3,
+    "log_sigma": 0.005,
+    "amp": 0.01,
+    "freq_raw": 0.01,
+    "phi": 0.1
+  },
+
+  "usar_scheduler": true,
+  "scheduler_factor": 0.5,
+  "scheduler_paciencia": 400,
+  "scheduler_min_lr": 1e-05,
+
+  "sobreescribir_salida": true,
+  "forzar_pytorch": false,
+
+  "dominio": "MS",
+  "n_atomos_mid": 96000,
+  "n_atomos_side": 64000,
+
+  "init_modo": "energia",
+  "init_alpha": 0.7,
+  "init_n_fft": 2048,
+  "init_hop": 512
+}

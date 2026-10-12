@@ -1,0 +1,33 @@
+# Normalizacion de finales de linea
+* text=auto
+
+*.py text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+
+*.cpp text eol=lf
+*.cc text eol=lf
+*.c text eol=lf
+*.cu text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp4 binary
+*.wav binary
+*.pt binary
+*.pth binary
+.gitattributes text eol=lf
+.gitignore text eol=lf

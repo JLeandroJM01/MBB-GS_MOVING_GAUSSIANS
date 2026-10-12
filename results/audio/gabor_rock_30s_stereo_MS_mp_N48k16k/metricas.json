@@ -1,0 +1,60 @@
+{
+  "dominio": "MS",
+  "snr_left_db": 12.210500717163086,
+  "snr_right_db": 12.394057273864746,
+  "snr_promedio_lr_db": 12.302278995513916,
+  "snr_stereo_db": 12.30131721496582,
+  "psnr_stereo_db": 29.19696807861328,
+  "mse_wave_stereo": 0.00481241662055254,
+  "si_sdr_left_db": 11.941494941711426,
+  "si_sdr_right_db": 12.13650894165039,
+  "si_sdr_stereo_db": 12.037860870361328,
+  "lsd_left_db": 9.1912202835083,
+  "lsd_right_db": 9.213472366333008,
+  "lsd_promedio_db": 9.202346324920654,
+  "snr_mid_db": 12.975741386413574,
+  "snr_side_db": 6.011106967926025,
+  "si_sdr_mid_db": 12.751188278198242,
+  "si_sdr_side_db": 4.758563995361328,
+  "mel_l1_promedio": 0.8021145761013031,
+  "mr_stft_promedio": 3.0085694789886475,
+  "n_atomos_canal1": 48000,
+  "n_atomos_canal2": 16000,
+  "n_atomos_total": 64000,
+  "samples_por_canal": 1323000,
+  "sr": 44100,
+  "duracion_s": 30.0,
+  "bytes_modelo": 1280008,
+  "bytes_wav_int16_stereo": 5292000,
+  "ratio_compresion_vs_wav": 4.134349160317748,
+  "bitrate_kbps": 341.33546666666666,
+  "cuantizacion": {
+    "fp32": {
+      "bytes_por_atomo": 20,
+      "bytes_modelo": 1280008,
+      "ratio_compresion_vs_wav": 4.134349160317748,
+      "snr_stereo_db": 12.30131721496582,
+      "si_sdr_stereo_db": 12.037860870361328,
+      "mse_wave_stereo": 0.00481241662055254
+    },
+    "fp16mix": {
+      "bytes_por_atomo": 12,
+      "bytes_modelo": 768008,
+      "ratio_compresion_vs_wav": 6.890553223403923,
+      "snr_stereo_db": 11.885860443115234,
+      "si_sdr_stereo_db": 11.595947265625,
+      "mse_wave_stereo": 0.005295524839311838
+    },
+    "fp16full": {
+      "bytes_por_atomo": 10,
+      "bytes_modelo": 640008,
+      "ratio_compresion_vs_wav": 8.268646641916977,
+      "snr_stereo_db": -1.3550208806991577,
+      "si_sdr_stereo_db": -24.593544006347656,
+      "mse_wave_stereo": 0.11168556660413742
+    }
+  },
+  "loss_final_c1": 0.016844749450683594,
+  "loss_final_c2": 1.2128565311431885,
+  "tiempo_total_s": 2073.1540865898132
+}

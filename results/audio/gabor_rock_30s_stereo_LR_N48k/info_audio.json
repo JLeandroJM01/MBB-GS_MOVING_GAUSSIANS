@@ -1,0 +1,9 @@
+{
+  "audio": "/home/jose.machaca/MBB-GS/data/audio/RockThatBody_61s_30s_stereo_44k.wav",
+  "sr": 44100,
+  "samples": 1323000,
+  "duracion_s": 30.0,
+  "canales": "stereo",
+  "dominio": "LR",
+  "seed": 42
+}
